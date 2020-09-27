@@ -1,1 +1,57 @@
-tickets.html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>QFF - Tickets</title>
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="icon" href="media/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="navbar">
+      <div class="burger">
+        <div class="line line1"></div>
+        <div class="line line2"></div>
+        <div class="line line3"></div>
+      </div>
+
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="about.html" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="roster.html" class="nav-link">Roster</a>
+        </li>
+        <li class="nav-item">
+          <a href="tickets.html" class="nav-link">Tickets</a>
+        </li>
+      </ul>
+
+      <div class="logo">
+        <a href="index.html"><img src="media/qff.png" width="50px"></a>
+      </div>
+    </div>
+    <script src="nav.js"></script>
+    <div class="middle-container">
+    	<h2>Reserve Tickets</h2>
+    	<form>
+		  <label for="Name">Name:</label>
+		  <input type="text" id="name" name="name"><br><br>
+		  <label for="email">Email:</label>
+		  <input type="text" id="email" name="email"><br><br>
+		  <label for="seats">Seats:</label>
+		  <input type="number" max="5" id="seats" name="seats"><br><br>
+		  <input type="submit" value="Submit">
+		</form>
+    </div>
+    <div class="bottom-container">
+      <p class="built">Built by Matthew Varona.</p>
+    </div>
+
+    <script src="nav.js"></script>
+  </body>
+</html>
