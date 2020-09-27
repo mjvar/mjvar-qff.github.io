@@ -1,3 +1,5 @@
+/*----------------GENERAL-USE CSS----------------*/
+
 html{
   scroll-behavior: smooth;
 }
@@ -146,6 +148,71 @@ p{
   transform-origin: right;
 }
 
+.middle-container h2{
+  padding-top: 10vh;
+}
+
+.middle-container{
+  background-color: white;
+  margin: 0;
+}
+
+.bottom-container{
+  padding: 5px;
+}
+
+.built{
+  color: #b3b3b3;
+  font-size: 2vh;
+}
+
+.btn {
+	text-decoration:none;
+	font-family:'Montserrat', sans-serif;
+	background: #FFA931;
+	border-radius: 2px;
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+	font-size: 1em;
+	color: #ffffff;
+	width: 160px;
+	height: 30px;
+	padding: 15px;
+  margin-top: 25px;
+	text-shadow: #f09516 2px 2px;
+	border-color: #659dab;
+	border-width: 0px;
+	border-style: solid;
+}
+
+.btn:active {
+	position:relative;
+	top:3px
+}
+
+.btn:hover {
+	background: #f09516;
+  text-shadow: #FFA931 2px 2px;
+}
+
+.ticketpic{
+  height: 200px;
+  width: 200px;
+  margin: 0;
+}
+
+.ticket-text{
+  margin: 0;
+}
+
+.reserve-bot{
+  margin: 10vh auto;
+  width: 50%;
+}
+
+/*----------------HOME-SPECIFIC CSS----------------*/
+
 .top-container{
   height: 100vh;
   font-weight: normal;
@@ -195,16 +262,6 @@ p{
   text-align: center;
 }
 
-#ticketpic{
-  height: 200px;
-  width: 200px;
-}
-
-.reserve-bot{
-  margin: 10vh auto;
-  width: 50%;
-}
-
 #awardimg{
   width: 25%;
   float: left;
@@ -227,9 +284,7 @@ p{
   text-align: left;
 }
 
-.middle-container h2{
-  padding-top: 10vh;
-}
+/*----------------ABOUT-SPECIFIC CSS----------------*/
 
 .about{
   margin-bottom: 10%;
@@ -253,46 +308,24 @@ p{
   margin-left: 5vh;
 }
 
-.middle-container{
-  background-color: white;
-  margin: 0;
+/*----------------ROSTER-SPECIFIC CSS----------------*/
+
+.entry-row{
+  margin: 0 auto 0 auto;
+  width: 70%;
 }
 
-.bottom-container{
-  padding: 5px;
+.entry-title{
+  margin: 30px 0 0 0;
+  font-size: 3vh;
 }
 
-.built{
-  color: #b3b3b3;
-  font-size: 2vh;
+.entry-ppl{
+  font-style: bold;
 }
 
-.btn {
-	text-decoration:none;
-	font-family:'Montserrat', sans-serif;
-	background: #FFA931;
-	border-radius: 2px;
-	text-align: center;
-	vertical-align: middle;
-	display: inline-block;
-	font-size: 1em;
-	color: #ffffff;
-	width: 160px;
-	height: 30px;
-	padding: 15px;
-  margin-top: 25px;
-	text-shadow: #f09516 2px 2px;
-	border-color: #659dab;
-	border-width: 0px;
-	border-style: solid;
-}
-
-.btn:active {
-	position:relative;
-	top:3px
-}
-
-.btn:hover {
-	background: #f09516;
-  text-shadow: #FFA931 2px 2px;
+.film-img{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
 }
