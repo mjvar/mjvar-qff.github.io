@@ -332,5 +332,30 @@ p{
 
 /*----------------TICKETS-SPECIFIC CSS----------------*/
 
+.ticket-form{
+  width: 70%;
+  margin: 0 auto 70px auto;
+}
 
+.ticket-form h2{
+  text-align: center;
+}
+
+.ticket-row{
+  text-align: left;
+}
+
+.ticket-form .btn{
+  margin-top: 50px;
+}
+
+.ticket-form input{
+  height: 40px;
+  width: 400px;
+}
+
+.ticketimg{
+  width: 50%;
+  float: right;
+}
 
