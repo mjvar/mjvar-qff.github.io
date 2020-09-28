@@ -216,6 +216,7 @@ p{
 .top-container{
   height: 100vh;
   font-weight: normal;
+  cursor: pointer;
   /*border-bottom: 3px dotted black;*/
 }
 
@@ -233,6 +234,10 @@ p{
   bottom: 20px;
   left: 50%;
   margin-left: -30px;
+}
+
+.top-container h1{
+  font-size: 9vh;
 }
 
 .top-container p{

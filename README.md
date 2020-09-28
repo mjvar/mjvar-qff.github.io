@@ -8,7 +8,8 @@ Since the site is for an online film festival – something unlikely to ever occ
 ### Interactivity
 For the front page, I originally planned to just have a big banner image with some text. I realized I could generate more interest in the site if I had an interactive sketch of sorts at the top that was related to film. The sketch I created was simple to execute in p5.js; I experimented with drawing polygons in a grid, having them overlap, and having them react to mouse position. I ended up finding this interesting pattern from layering hexagons on top of each other. The outlines of the shapes become more saturated the further they move from the mouse, while the fills get more saturated the closer they are to the mouse. I wanted to emulate a spotlight to fit the movie theme, while also staying true to the more angular, minimalist themes throughout the site, which is why I settled on this sketch. The spotlight starts out small, but every mouse click makes the spotlight get bigger (until it wraps back to its original size).
 
-### Fun Stuff
+<img src="media/homesample.gif" width="300px"/>
+
 I tried to pay a lot of attention to smaller details when navigating the site, to give it some extra polish. I used some CSS to animate the burger menu:
 
 <img src="media/burgersample.gif" width="300px"/>
